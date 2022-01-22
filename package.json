@@ -1,0 +1,29 @@
+{
+  "name": "rethinkdbsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",	  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpenarrieta/rethinkDb_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpenarrieta/rethinkDb_sample/issues"
+  },
+  "homepage": "https://github.com/cpenarrieta/rethinkDb_sample#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.24.0",
+    "rethinkdb": "^2.2.1",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
